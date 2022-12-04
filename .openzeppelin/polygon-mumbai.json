@@ -39,6 +39,37 @@
           }
         }
       }
+    },
+    "d37523cda44741c74755e8b17c74043655095e4cc47120a68d001d574ac7dbcf": {
+      "address": "0x4e49FAB046fd37b1C5a579d7bfFA53B7fA229AcF",
+      "txHash": "0xe6a505aa615e2d935575404582a7e8c2a9bcaa11bebaafbbc9a3c86bd96d68c7",
+      "layout": {
+        "solcVersion": "0.8.6",
+        "storage": [
+          {
+            "label": "number",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "V2",
+            "src": "contracts/ContractV2.sol:5"
+          },
+          {
+            "label": "test",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "V2",
+            "src": "contracts/ContractV2.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
     }
   }
 }
