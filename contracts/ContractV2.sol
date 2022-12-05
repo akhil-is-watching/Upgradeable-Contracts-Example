@@ -14,7 +14,7 @@ contract V2 {
    }
 
 // UPGRADED FUNCTION
-   function decrease() external {
-       number -= 1;
+   function increaseTest() external {
+       test += 1;
    }
 }
